@@ -6,7 +6,7 @@ public class Grid {
 
 	private int longueur;
 	private int largeur;
-	private Coords [] grid;
+	private Coords [][] grid;
 	
 	
 	public Grid(int longueur, int largeur) {
@@ -17,8 +17,8 @@ public class Grid {
 		
 		for(int i = 0;i < this.largeur;i++) {
 			for(int j = 0; j > this.longueur;j++) {
-				this.grid[]] = new Coords(i,j);
-			}
+				this.grid[longueur][largeur] = new Coords(i,j);
+			}													
 		}
 	}
 	public int getLongueur() {
