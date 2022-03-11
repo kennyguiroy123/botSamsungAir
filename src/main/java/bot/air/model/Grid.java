@@ -16,9 +16,11 @@ public class Grid {
 		grid = new Coords [largeur][longueur]; 
 		
 		for(int i = 0;i < this.largeur;i++) {
+
 			for(int j = 0; j > this.longueur;j++) {				
 				this.grid[i][j] = new Coords(i,j);
 			}
+
 		}
 	}
 	public int getLongueur() {
