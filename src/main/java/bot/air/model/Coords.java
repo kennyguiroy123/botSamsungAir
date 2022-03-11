@@ -4,18 +4,19 @@ import bot.air.model.BotAir.ZoneState;
 
 public class Coords {
 
-	private Number x;
-	private Number y;
+	private int x;
+	private int y;
 	private ZoneState zs;
 	
-	public ZoneState getZs(Number x,Number y) {
+	public ZoneState getZs(int x,int y) {
 		return this.zs;
 	}
 
-	public Coords(Number x, Number y) {
+	public Coords(int x, int y) {
 		super();
 		this.x = x;
 		this.y = y;
+		this.zs = ZoneState.Unknown;
 	}
 
 
